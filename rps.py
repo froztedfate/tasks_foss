@@ -6,6 +6,7 @@ pscore=0
 cscore=0
 while (player==False):
 	player=input("\nstone,paper,scissors :\n")
+	print(computer)	
 	if player==computer:
 		print("\nTie!")
 	elif player=="stone":

@@ -2,8 +2,8 @@ from random import randint
 items=["stone","paper","scissors"]
 computer=items[randint(0,2)]
 player=False
-pscore=0
 cscore=0
+pscore=0
 while (player==False):
 	player=input("\nstone,paper,scissors :\n")
 	print(computer)	

@@ -97,6 +97,10 @@ def main():
                     magnito_bot.send_message(first_chat_id,'Bye!! It was fun interacting with you')
                     new_offset = first_update_id + 1
                 
-							
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+							exit()					
 				
 

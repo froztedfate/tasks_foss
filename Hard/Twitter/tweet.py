@@ -10,6 +10,8 @@ auth = tweepy.OAuthHandler(api_key, api_secret)
   
 auth.set_access_token(access_token, access_token_secret) 
 api = tweepy.API(auth) 
-  
-api.update_status(status ="Hello Everyone !!") 
+
+print("\n Enter the status which you want to update :")
+x=input()
+api.update_status(status =x) 
 
